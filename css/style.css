@@ -157,7 +157,7 @@ footer {
 .advertisment {
   background-image: url(../image/computer\ img.jpg);
   width: 100%;
-  height: 100vh;
+  height: 563px;
   background-size: contain;
   background-repeat: no-repeat;
   object-fit: cover;
@@ -234,6 +234,12 @@ footer {
 @media screen and (max-width: 750px) {
   .doubleRow {
     display: none; } }
+@media screen and (max-width: 768px) and (min-width: 320px) {
+  .advertisment {
+    height: 53vh; } }
+@media screen and (max-width: 320px) {
+  .advertisment {
+    height: 30vh; } }
 .topBanner {
   background-image: url(../image/topbanner.png);
   width: 100%;

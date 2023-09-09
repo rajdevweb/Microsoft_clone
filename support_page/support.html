@@ -1,103 +1,521 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Microsoft</title>
+    <link rel="stylesheet" href="style.css" />
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>OnePiece</title>
-  <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+    <!-- font-awesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
 
-  <!-- font-awesome link -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- bootstrap icon link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+  </head>
 
-  <!-- bootstrap icon link -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <body>
+    <!-- navbar start  -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary containerSection">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img class="img-fluid main-logo" src="image/microsoft.svg" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse text-center"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-3 ht">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Microsoft</a
+              >
+            </li>
+            <li class="d-none d-md-block">
+              <div class="border-right"></div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Support</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Windows</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Surface</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Xbox</a>
+            </li>
 
+            <li class="nav-item">
+              <a class="nav-link" href="#">Support</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <div
+              class="collapse navbar-collapse text-center"
+              id="navbarSupportedContent"
+            >
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-4 text-center">
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    All Microsoft
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action </a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <hr class="dropdown-divider" />
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
 
-</head>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Search<i class="ms-2 bi bi-search"></i
+                  ></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"
+                    >Cart <i class="me-2bi bi-cart"></i
+                  ></a>
+                </li>
 
-<body>
-  <!-- navbar start  -->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="varticleLine"><img src="image/microsoft.svg" class="img-fluide" alt=""></div>
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img class="img-fluid main-logo" src="image/microsoft-logo.svg" alt="" /></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-3">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Microsoft365</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Team</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Windows</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Surface</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Xbox</a>
-          </li>
+                <li class="nav-item"></li>
+              </ul>
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end -->
 
-          <li class="nav-item">
-            <a class="nav-link" href="#">Support</a>
-          </li>
-      
-
-
-
-        </ul>
-        <form class="d-flex " role="search">
-          <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-4 text-center">
-
-              <li class="nav-item dropdown ">
-                <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  All Microsoft
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action </a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li>
-                    <hr class="dropdown-divider">
-                  </li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link active " aria-current="page" href="#">Search<i class="ms-2 bi bi-search"></i></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link " href="#">Cart <i class=" me-2bi bi-cart"></i></a>
-              </li>
-
-              <li class="nav-item">
-              </li>
-
-            </ul>
+    <!--banner section  -->
+    <div class="container bannerWrapper">
+      <div class="row">
+        <div class="col-12 text-center border text-white">
+          <h1 class="lh-lg">Welcome to Microsoft Support</h1>
+          <p class="bannerPara lh-lg d-inline-block">
+            Please sign in so we may serve you better
+          </p>
+          <a class="lh-lg border p-2" href="">Sign In</a>
+          <div>
+            <input
+              type="text"
+              placeholder="Please enter the anything"
+              class="BannerInput nput-group-text basic-addon1"
+            />
           </div>
-        </form>
+        </div>
       </div>
     </div>
-  </nav>
-<!-- navbar end -->
+    <!--banner section end -->
+
+    <!-- service start -->
+    <div class="container serviceWrapper">
+      <div class="row d-flex justify-content-around mt-3">
+        <div class="col-sm-1 col-3 border p-0">
+          <img src="image/img-1.png" class="icon" alt="" />
+          <p class="text-center">Microsoft 365</p>
+        </div>
+        <div class="col-sm-1 col-3 border p-0">
+          <img src="image/img2.png" class="icon" alt="" />
+          <p class="text-center">Microsoft 365</p>
+        </div>
+        <div class="col-sm-1 col-3 border p-0">
+          <img src="image/img3.png" class="icon" alt="" />
+          <p class="text-center">Microsoft 365</p>
+        </div>
+        <div class="col-sm-1 col-3 border p-0">
+          <img src="image/img4.png" class="icon" alt="" />
+          <p class="text-center">Microsoft 365</p>
+        </div>
+        <div class="col-sm-1 col-3 border p-0">
+          <img src="image/img5.png" class="icon" alt="" />
+          <p class="text-center">Microsoft 365</p>
+        </div>
+        <div class="col-sm-1 col-3 border p-0">
+          <img src="image/img6.png" class="icon" alt="" />
+          <p class="text-center">Microsoft 365</p>
+        </div>
+        <div class="col-sm-1 col-3 border p-0">
+          <img src="image/img-7.png" class="icon" alt="" />
+          <p class="text-center">Microsoft 365</p>
+        </div>
+        <div class="col-sm-1 col-3 border p-0">
+          <img src="image/img10.png" class="icon" alt="" />
+          <p class="text-center">Microsoft 365</p>
+        </div>
+        <div class="col-sm-1 col-3 border p-0">
+          <img src="image/img9.png" class="icon" alt="" />
+          <p class="text-center">Microsoft 365</p>
+        </div>
+      </div>
+    </div>
+    <!-- service start end -->
+
+    <!-- Tranding section  -->
+    <div class="container TrandingWrapper">
+      <div class="row">
+        <h1 class="text-center m-2 mb-4">Trending topics</h1>
+        <div class="col-md-3 col-6">
+          <ul>
+            <h5 class="">Microsoft 365</h5>
+            <li><a href="#">Install Microsoft 365</a></li>
+            <li><a href="#">Manage your subscriptions</a></li>
+            <li><a href="#">Manage payment and billing</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-3 col-6">
+          <ul>
+            <h5>Microsoft account & storage</h5>
+            <li><a href="#">Sign in to your Microsoft account</a></li>
+            <li><a href="#">Change your Microsoft account password</a></li>
+            <li><a href="#">How does Microsoft storage work?</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-3 col-6">
+          <ul>
+            <h5>Activation</h5>
+            <li><a href="#"> Activate Office</a></li>
+            <li><a href="#">Activate Windows</a></li>
+            <li><a href="#">Find your Windows product key</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-3 col-6">
+          <ul>
+            <h5>Windows & devices</h5>
+            <li><a href="#">Windows 11 system requirements</a></li>
+            <li><a href="#">Windows 8.1 end of support</a></li>
+            <li><a href="#">Find your hardware warranty</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- Tranding section end -->
+
+    <!-- tranding_section -->
+    <div class="trandingBanner">
+      <div class="container">
+        <div class="row  p-2">
+          <div class="col-md-6 col-12 ">
+            <img src="image/img11.png" class="img-fluid" alt="" />
+          </div>
+          <div class="col-md-6 col-12 text-center text-md-start">
+            <h1>AI and Microsoft 365 Copilot: here to help you achieve more</h1>
+            <p>
+              You've undoubtedly heard a lot about artificial intelligence
+              lately. And maybe you've heard about Microsoft 365 Copilot, the
+              new technology coming to Microsoft 365. Questions about what all
+              of this means for you?
+            </p>
+            <a href="" class="d-block"
+              >LEARN MORE ABOUT MICROSOFT 365 COPILOT AND WHAT AI CAN AND CAN'T
+              DO</a
+            >
+            <a href="" class="d-block">CHECK OUT OUR NEW AI PORTAL</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- tranding_section   end-->
 
 
- 
-  
-  <!-- <div style="height: 100vw"></div> -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-    crossorigin="anonymous"></script>
-</body>
+    <!-- Explore Section  -->
+    <div class="container">
+      <div class="row  ">
+        <div class="col-md-6 col-12">
+          <div class="row">
+            <div class="col-md-6 col-12">
+              <img src="image/img-12.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-6 col-12">
+              <h5>Welcome to the family</h5>
+              <p>Create stunning videos with Clipchamp, the newest member of the Microsoft 365 family. No experience? No problem. We'll have you creating in no time.</p>
+              <a href="">GET STARTED WITH CLIPCHAMP</a>
+              <a href=""> LEARN MORE ABOUT CLIPCHAMP</a>
+            </div>
+          </div>
+        </div>
 
+        <div class="col-md-6 col-12">
+          <div class="row">
+            <div class="col-md-6 col-12">
+              <img src="image/img13.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-6 col-12">
+              <h5>Welcome to the family</h5>
+              <p>Create stunning videos with Clipchamp, the newest member of the Microsoft 365 family. No experience? No problem. We'll have you creating in no time.</p>
+              <a href="">GET STARTED WITH CLIPCHAMP</a>
+              <a href=""> LEARN MORE ABOUT CLIPCHAMP</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-12">
+          <div class="row">
+            <div class="col-md-6 col-12">
+              <img src="image/img-13.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-6 col-12">
+              <h5>Welcome to the family</h5>
+              <p>Create stunning videos with Clipchamp, the newest member of the Microsoft 365 family. No experience? No problem. We'll have you creating in no time.</p>
+              <a href="">GET STARTED WITH CLIPCHAMP</a>
+              <a href=""> LEARN MORE ABOUT CLIPCHAMP</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-12">
+          <div class="row">
+            <div class="col-md-6 col-12">
+              <img src="image/img-14.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-6 col-12">
+              <h5>Welcome to the family</h5>
+              <p>Create stunning videos with Clipchamp, the newest member of the Microsoft 365 family. No experience? No problem. We'll have you creating in no time.</p>
+              <a href="">GET STARTED WITH CLIPCHAMP</a>
+              <a href=""> LEARN MORE ABOUT CLIPCHAMP</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Explore Section end -->
+<div class="exploreWrapper">
+  <div class="container">
+    <div class="row">
+      <h1 class="text-center m-4">More support options</h1>
+      <div class="col-md-3 mb-3">
+        
+        <h4>Contact Support</h4>
+        <a href="" class="d-block">Contact us</a>
+        <a href="">Ask the community</a>
+      </div>
+      <div class="col-md-3 mb-3">
+         
+        <h4>Contact Support</h4>
+        <a href="" class="d-block">Contact us</a>
+        <a href="">Ask the community</a>
+      </div>
+      <div class="col-md-3 mb-3">
+         
+        <h4>Contact Support</h4>
+        <a href="" class="d-block">Contact us</a>
+        <a href="">Ask the community</a>
+      </div>
+      <div class="col-md-3 mb-3">
+         
+        <h4>Contact Support</h4>
+        <a href="" class="d-block">Contact us</a>
+        <a href="">Ask the community</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- imageWrapper -->
+<div class="container ">
+  <div class="row mt-5"> 
+    <div class="col-md-6 order-md-1 order-2 col-12 ">
+      <h1>If you're a small business owner</h1>
+      <p>Find the information you need to build, run, and grow your small business with Microsoft 365.</p>
+      <a href="">VISIT SMALL BUSINESS HELP AND LEARNING</a>
+    </div>
+    <div class="col-md-6 col-12 order-md-2 order-1 ">
+      <img src="image/img-15.png" class="img-fluid" alt="">
+    </div>
+  </div>
+</div>
+
+<div class="gifWrapper">
+  <div class="container ">
+    <div class="row mt-5 p-4"> 
+      <div class="col-md-6 order-md-2 order-2 col-12 ">
+        <h1>Here’s access to a free trial of Microsoft 365</h1>
+        <p>Quickly create and share content that stands out, manage your schedule with ease, effortlessly connect with others and enjoy peace of mind - all with Microsoft 365.</p>
+        <a class="btn btn-outline-primary rounded-0" href="">UNLOCK NOW 📢</a>
+      </div>
+      <div class="col-md-6 col-12 order-md-1 order-1 ">
+        <img src="../gif/supportgif.gif" class="img-fluid" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- <footer></footer> -->
+<footer class="text-center text-md-start bg-light text-muted">
+  <!-- Section: Social media -->
+
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="mt-5">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row ">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mt-4 mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <img height="20px" src="image/microsoft-logo.svg" alt="">
+          </h6>
+
+          <p>
+            Learn how to create more effective and user-friendly products by recognizing and addressing cognitive
+            biases in UX design and research.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 mt-4 col-lg-2 col-xl-2 mx-auto mb-4 hovertext">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            What's new
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Overview</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Pricing</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">UsabilityHub panel</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Customers</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Status page</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Sign up</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Book a demo</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 mt-4 col-lg-2 col-xl-2 mx-auto mb-4 hovertext ">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Microsoft Store
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Card sorting</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Prototype</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">First click tests</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Preference tests</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Five second tests</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Design surveys </a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 mt-4 col-lg-3 col-lg-3 mx-auto mb-md-0 mb-4 hovertext ">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Education</h6>
+          <p>
+            <a href="#!" class="text-reset">Blog </a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Examples</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Testing guides</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Help center</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Contact</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Careers</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+
+    <a class="text-reset fw-bold me-1 footertext" href="https://mdbootstrap.com/">privacy policy</a>
+    <a class="text-reset fw-bold me-1 footertext" href="https://mdbootstrap.com/">Term condition</a>
+    <a class="text-reset fw-bold me-3 footertext" href="https://mdbootstrap.com/">Security information</a>
+    <i class="bi bi-facebook "></i>
+    <i class="bi bi-twitter"></i>
+    <i class="bi bi-linkedin"></i>
+    <i class="bi bi-youtube "></i>
+  </div>
+
+  <!-- Copyright -->
+</footer>
+
+
+    <!-- <div style="height: 100vw"></div> -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

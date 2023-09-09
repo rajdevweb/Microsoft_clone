@@ -1,0 +1,70 @@
+.containerSection {
+  max-width: 2000px;
+  margin-inline: auto;
+  overflow: visible;
+}
+
+.main-logo {
+  width: 51px;
+}
+
+.border-right {
+  border-right: 3px solid black;
+  display: block;
+  width: 10px;
+  height: 38px;
+}
+
+.bannerWrapper {
+  background-image: url(image/bannerImg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-clip: content-box;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.bannerWrapper .bannerPara {
+  font-size: 20px;
+}
+.bannerWrapper input {
+  width: 300px;
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 4px;
+  margin-bottom: 41px;
+}
+
+.serviceWrapper {
+  padding: 5px;
+  background-color: rgb(238, 238, 238);
+}
+.serviceWrapper .icon {
+  width: 50px;
+}
+.serviceWrapper p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.TrandingWrapper li {
+  list-style-type: none;
+  line-height: 2;
+}
+.TrandingWrapper a {
+  text-decoration: none;
+}
+
+.trandingBanner {
+  background-color: rgb(244, 244, 244);
+}
+
+.exploreWrapper {
+  background-color: rgb(210, 210, 210);
+  margin: 10px 0px;
+  padding: 20px 0px;
+}
+
+.gifWrapper {
+  background-color: rgb(234, 234, 234);
+}/*# sourceMappingURL=style.css.map */

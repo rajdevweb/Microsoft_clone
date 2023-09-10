@@ -1,3 +1,31 @@
+// utility class
+.py-7 {
+  padding-top: -1rem !important;
+  padding-bottom: -1rem !important;
+}
+.py-71{
+  padding-top:-1rem !important ;
+  padding-bottom: 1rem !important;
+}
+.margin-bottom{
+  margin-bottom: 4rem !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // navbar
 .containerSection {
     max-width: 2000px;
@@ -14,6 +42,13 @@
   height:38px;
 }
 
+// bannerHeading
+.centered{
+  position: relative;
+  top: -50%;
+  
+}
+
 // banner section
 .inputBanner{
   background-color: white;
@@ -23,24 +58,51 @@
 .inputIcons{
   background-color: rgb(181, 0, 0);
 }
-.bannerWrapper{
-background-image: url(image/bannerImg.jpg);
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
-background-clip: content-box;
-object-fit: cover;
+.bannerWrapper{ 
+
 
   .bannerPara{
     font-size: 20px;
     }
+    h1{
+      font-size: 3vw;
+    }
+    p{
+      font-size: 2vw;
+
+
+  
+     
+    }
+  
+      
+    }
 
     input{
-      width: 300px;
+      width: 45vw;
       border: 2px solid black;
       padding: 5px;
-      border-radius: 4px;
+      border-radius: 2px;
       margin-bottom: 41px;
+      padding: 10px;
+    }
+    .col-12{
+      margin-bottom: -150px;
+    }
+
+
+
+    @media screen and (max-width:632px) {
+      img{
+        height: 224px;
+      }
+    }
+
+    @media screen and (max-width:320px) {
+      input{
+        width: 198px;
+        padding: 0;
+      }
     }
 }
 
@@ -48,10 +110,12 @@ object-fit: cover;
 .serviceWrapper{
   padding: 5px;
   background-color: rgb(238 238 238);
-  
+
   .icon{
-    width: 50px;
-  }  p{
+    width: 20px;
+  }
+  
+   p{
     font-size: 1rem;
     font-weight: 500;
   }
@@ -66,18 +130,48 @@ object-fit: cover;
     text-decoration: none !important;
   }
 }
+.exploreContainer{
+  a{
+    text-decoration: none;
+    font-weight: 500;
+  }
+}
 
 .trandingBanner{
   background-color: rgb(244 244 244);
+
+  a{
+    text-decoration: none !important;
+    font-weight: 500;
+  }
 }
 
+.service{
+
+  p{
+    font-size: 2vh;
+  }
+  @media screen and (max-width:425px) {
+    img{
+      width: 20px ;
+    }
+    p{
+      font-size: 7px;
+      text-wrap: wrap;
+    }
+  }
+}
 
 
 // exploreWrapper
 .exploreWrapper{
-  background-color: rgb(210, 210, 210);
+  background-color: rgb(244 244 244);
   margin: 10px 0px;
   padding: 20px 0px;
+
+  a{
+    text-decoration: none;
+  }
 }
 
 
@@ -91,4 +185,12 @@ footer{
 .text-reset{
   text-decoration: none;
 }
+}
+
+
+@media screen  and(max-width:767px) {
+  .wrapperBtn{
+    // width: 10px;
+    display: block;
+  }
 }

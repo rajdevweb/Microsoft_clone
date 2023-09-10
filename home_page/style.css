@@ -207,6 +207,10 @@ main {
   overflow: hidden;
 }
 
+.carouselBorder {
+  border-radius: 15px !important;
+}
+
 .add-to-cart-btn {
   background-color: #333;
   color: white;
@@ -323,6 +327,34 @@ footer {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
+}
+
+.ifram {
+  text-align: center;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 25px;
+  transition: 0.2s ease-in;
+}
+.ifram h1 {
+  font-size: 10vw;
+  font-weight: bold;
+  background-image: url(image/infraImage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.ifram p {
+  font-size: 1.6vw;
+}
+
+.ifram:hover {
+  transform: translateY(-10px);
+  box-shadow: 11px 9px 0px -4px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 11px 9px 0px -4px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 11px 9px 0px -4px rgba(0, 0, 0, 0.5);
 }
 
 @media screen and (max-width: 320px) {

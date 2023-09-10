@@ -1,4 +1,10 @@
 /* utility class start */
+// body{
+//   scroll-behavior: auto;
+// }
+
+
+
 :root {
     --bs-blue: #63b3ed;
     --bs-indigo: #596cff;
@@ -43,7 +49,7 @@
     --bs-gradient: linear-gradient(180deg, hsla(0, 100%, 50%, 0.15), hsla(0, 0%, 100%, 0));
   }
 
-  $adad : red;
+
 
 
 
@@ -183,6 +189,9 @@
 .exampleCard{
   overflow: hidden;
 }
+.carouselBorder{
+  border-radius: 15px !important;
+}
   
   .add-to-cart-btn {
     background-color: #333;
@@ -295,7 +304,36 @@
   }
 }
 
+// transparent section
+.ifram{
+  text-align: center;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 25px ;
+  transition: 0.2s ease-in;
 
+
+
+  h1{
+    font-size: 10vw;
+    font-weight: bold;
+    background-image: url(image/infraImage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  p{
+    font-size: 1.6vw;
+  }
+}
+.ifram:hover{
+  transform: translateY(-10px);
+  box-shadow: 11px 9px 0px -4px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 11px 9px 0px -4px rgba(0,0,0,0.5);
+  -moz-box-shadow: 11px 9px 0px -4px rgba(0,0,0,0.5);
+}
 
 
 
@@ -311,4 +349,5 @@
   i{
     display: block;
   }
+
 }

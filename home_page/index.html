@@ -20,8 +20,10 @@
 </head>
 
 <body>
+  <a href="" id="navbarMain"></a>
   <!-- navbar start  -->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" >
+      <a href="" id="navbarMain"></a>
     <div class="container-fluid">
       <a class="navbar-brand" href="#"><img class="img-fluid main-logo" src="image/microsoft.svg" alt="" /></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -92,9 +94,9 @@
 
 
   <!-- carousel start -->
-  <div class="container containerSection">
-    <div id="carouselExampleCaptions" class="carousel slide">
-      <div class="carousel-indicators">
+  <div class="container">
+    <div id="carouselExampleCaptions  " class="carousel slide  ">
+      <div class="carousel-indicators ">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
           aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
@@ -102,7 +104,7 @@
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
           aria-label="Slide 3"></button>
       </div>
-      <div class="carousel-inner">
+      <div class="carousel-inner carouselBorder  ">
         <div class="carousel-item active">
           <img src="../gif/intel.gif" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
@@ -324,14 +326,26 @@
       </div>
     </div>
 
+    <!-- tranparent Text -->
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="ifram" >
+            <h1>Microsoft Corporation</h1>
+            <p>Technology corporation</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- tranparent Text end -->
     <div class="container">
       <div class="row m-4">
         <div class="col-12 d-flex border xSection flex-column text-center text-md-start">
         
-          <div class="d-flex justify-content-around flex-column">
-           <i style="font-style: normal;">Follow Microsoft </i>
-            <i class="fa-brands fa-facebook-f mt-1  " style="color: #000000; font-size: 30px;"></i>
-            <img src="image/xIcon.svg" class=" d-block" width="23px" alt="">
+          <div class="d-flex justify-content-around flex-column flex-md-row align-item-center">
+           <i style="font-style: normal; font-size:21px;">Follow Microsoft </i>
+            <i class="fa-brands fa-facebook-f mt-1 " style="color: #000000; font-size: 30px;"></i>
+            <i class="fa-brands fa-x-twitter" style="color: #000000;  font-size: 35px"></i>
             <i class="fa-brands fa-youtube mt-1" style="color: #000000; font-size: 35px;"></i>
           </div>
        
@@ -342,8 +356,7 @@
     <div class="container">
       <div class="row m-5">
         <div class="col-12">
-          <h5 class="text-end">Back to Top<i class="bi bi-arrow-up" style="color: rgb(0, 0, 0); font-size: 20px;" ></i>
-          </h5>
+          <a href="#navbarMain" class="text-end d-block"><i class="fa-solid fa-arrow-up me-2" style="color: #000000;"></i>Back To Top</a>
         </div>
       </div>
     </div>

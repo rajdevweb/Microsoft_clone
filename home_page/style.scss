@@ -76,7 +76,8 @@
     ----padding-inline-section:20px; }
   
   a {
-    text-decoration: none !important; }
+    text-decoration: none !important;
+   }
   
   .primary-btn {
     appearance: none;
@@ -179,6 +180,9 @@
   .product img {
     max-width: 100%; 
 }
+.exampleCard{
+  overflow: hidden;
+}
   
   .add-to-cart-btn {
     background-color: #333;
@@ -216,7 +220,7 @@
     transition-timing-function: cubic-bezier(0.1, 0.7, 1, 0.1); }
   
   .hoverimg:hover {
-    transform: scale(1.2); }
+    transform: scale(1.1); }
   
   .advertisment {
     background-image: url(../image/computer\ img.jpg);
@@ -270,6 +274,7 @@
     justify-content: center;
     align-items: end;
   }
+ 
   .innerHTML{
     background-color: rgba(255, 255, 255, 0.255);
     box-sizing: border-box;
@@ -295,3 +300,15 @@
 
 
 // 🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳MEDIA QUERY🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳
+@media screen and (max-width:320px) {
+  .xSection{
+   display: block;
+  }
+  p{
+    font-size: 19px;
+
+  }
+  i{
+    display: block;
+  }
+}

@@ -15,6 +15,14 @@
 }
 
 // banner section
+.inputBanner{
+  background-color: white;
+  border: 2px solid black;
+  display: inline;
+}
+.inputIcons{
+  background-color: rgb(181, 0, 0);
+}
 .bannerWrapper{
 background-image: url(image/bannerImg.jpg);
 background-size: cover;
@@ -55,7 +63,7 @@ object-fit: cover;
     line-height: 2
   }
   a{
-    text-decoration: none;
+    text-decoration: none !important;
   }
 }
 
@@ -79,3 +87,8 @@ object-fit: cover;
   
 }
 
+footer{
+.text-reset{
+  text-decoration: none;
+}
+}

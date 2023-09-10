@@ -203,6 +203,10 @@ main {
   max-width: 100%;
 }
 
+.exampleCard {
+  overflow: hidden;
+}
+
 .add-to-cart-btn {
   background-color: #333;
   color: white;
@@ -246,7 +250,7 @@ footer {
 }
 
 .hoverimg:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .advertisment {
@@ -319,4 +323,16 @@ footer {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
+}
+
+@media screen and (max-width: 320px) {
+  .xSection {
+    display: block;
+  }
+  p {
+    font-size: 19px;
+  }
+  i {
+    display: block;
+  }
 }/*# sourceMappingURL=style.css.map */

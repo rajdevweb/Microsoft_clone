@@ -1,0 +1,79 @@
+.bannerWrapper .mainImg {
+  background-image: url(image/earth.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 35vw;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 3px;
+}
+.bannerWrapper .HeaderPara {
+  width: 50vw;
+  border-radius: 3px;
+  padding: 2px;
+  box-shadow: 4px 2px 0px -1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 4px 2px 0px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 2px 0px -1px rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(9px);
+  -webkit-backdrop-filter: blur(10px);
+}
+.bannerWrapper h1 {
+  font-size: 4vw;
+}
+.bannerWrapper a {
+  border: 1px solid black;
+  padding: 3px;
+  color: white;
+  text-decoration: none;
+}
+.bannerWrapper a:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.card {
+  width: 500px;
+}
+
+.miniCardSection .fa-codepen {
+  font-size: 50px;
+}
+
+.mainBar {
+  border-radius: 2px;
+  display: flex;
+  width: 228px;
+  overflow: hidden;
+  background-color: #000000;
+  padding: 5px;
+  justify-content: space-between;
+  color: white;
+}
+
+img {
+  width: 100px;
+  border-radius: 3px;
+}
+
+.img {
+  float: right;
+}
+
+.containerCard {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.containerCard h4 {
+  font-size: 10px;
+}
+.containerCard h1 {
+  font-size: 10px;
+}
+.containerCard a {
+  font-size: 10px;
+  color: white;
+}/*# sourceMappingURL=style.css.map */

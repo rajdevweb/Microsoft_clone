@@ -1,8 +1,8 @@
 .bannerWrapper .mainImg {
-  background-image: url(image/earth.jpg);
+  background-image: url(image/mainBanner.avif);
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-size: cover;
   -o-object-fit: cover;
      object-fit: cover;
   height: 35vw;
@@ -46,7 +46,7 @@
   display: flex;
   width: 228px;
   overflow: hidden;
-  background-color: #000000;
+  background-color: transparent;
   padding: 5px;
   justify-content: space-between;
   color: white;
@@ -76,4 +76,44 @@ img {
 .containerCard a {
   font-size: 10px;
   color: white;
+}
+
+.mainBar {
+  background-image: url(image/abstract.jpg);
+  background-size: contain;
+  background-attachment: local;
+  -o-object-fit: cover;
+     object-fit: cover;
+  color: black;
+}
+
+.hoverimg {
+  width: 200px;
+}
+
+.product {
+  text-align: center;
+  margin: 1rem;
+  padding: 1rem;
+  flex-basis: 300px;
+}
+
+.containerSection {
+  max-width: 2000px;
+  margin-inline: auto;
+  overflow: visible;
+}
+
+.main-logo {
+  width: 51px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+.bgPicture {
+  background-image: url(image/bgBanner.jpg);
+  background-size: 2000px;
+  background-repeat: no-repeat;
 }/*# sourceMappingURL=style.css.map */
